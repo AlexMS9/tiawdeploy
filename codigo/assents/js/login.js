@@ -80,10 +80,10 @@ function processaFormLogin(form) {
         var dadosRecuperados = JSON.parse(sessionStorage.getItem('usuarioCorrente'));
         if (dadosRecuperados.login === 'admin') {
             alert('Login bem-sucedido! Redirecionando...');
-            window.location.href = '/codigo/painel.html';
+            window.location.href = '/painel.html';
         } else {
             alert('Login bem-sucedido! Redirecionando...');
-            window.location.href = '/codigo/index.html';
+            window.location.href = '/index.html';
         }
         
        

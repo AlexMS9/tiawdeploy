@@ -236,7 +236,7 @@ async function fetchProductDetails(productId) {
           const query = searchInput.value.trim();
           if (query) {
               // Redirecionar para index.html com o parâmetro de busca
-              window.location.href = `/codigo/index.html?search=${encodeURIComponent(query)}`;
+              window.location.href = `/index.html?search=${encodeURIComponent(query)}`;
           }
       });
   
